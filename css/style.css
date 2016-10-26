@@ -1,0 +1,16 @@
+body {
+	font-family: "PT Sans","Arial",serif;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+
+.content-title, .section-name,.item-title {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.item-content-title {
+	font-size: 24px;
+	line-height: 30px;
+}

@@ -2,10 +2,12 @@ body {
 	font-family: "PT Sans","Arial",serif;
 	font-size: 14px;
 	line-height: 24px;
+	font-weight: normal;
+	color: #000000;
 	
 }
 
-.content-title, .section-name,.item-title {
+.page-title {
 	font-size: 30px;
 	line-height: 42px;
 }

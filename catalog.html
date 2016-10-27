@@ -28,7 +28,7 @@
 		</div>
 	</header>
 	<main class="container">
-		<h1 class="section-name">Средства для ухода</h1>
+		<h1 class="page-title">Средства для ухода</h1>
 		<nav class="breadcrumbs">
 			<ul>
 				<li><a href="index.html">Главная</a></li>
@@ -36,10 +36,10 @@
 				<li>Средства для ухода</li>
 			</ul>
 		</nav>
-		<aside class="filters">
-			<form action="" method="post">
-				<div class="filter-name">Производители:</div>
-				
+		<div class="content-wrap">
+			<aside class="filters">
+				<form action="/examle" method="post">
+					<div class="filter-name">Производители:</div>
 					<input id="item-1" type="checkbox" name="baxter" value="baxter">
 					<label for="item-1">Baxter of California </label> <br>
 					<input id="item-2" type="checkbox" name="mr-natty" value="natty">
@@ -53,8 +53,7 @@
 					<input id="item-6" type="checkbox" name="american-crew" value="american-crew">
 					<label for="item-6">American Crew</label>
 				
-				<h2 class="filter-name">Группы товаров:</h2>
-				
+					<div class="filter-name">Группы товаров:</div>
 					<input type="radio" name="groups" value="shaving">
 					<label>Бритвенные принадлежности</label> <br>
 					<input type="radio" name="groups" value="care">
@@ -62,88 +61,89 @@
 					<input type="radio" name="groups" value="accessories">
 					<label>Аксессуары</label><br>
 					
-				<button class="btn" type="submit">Показать </button>
+					<button class="btn" type="submit">Показать </button>
 				</form>
-		</aside>
-		<section class="gallery">
-			<article class="gallery-item">
-				<a href="#">
-					<img src="img/catalog/item-1.jpg" width="220" height="170">
-				</a>
-				<a href="#">
-					<h1 class="description">Набор для путешествий "Baxter of California</h1>
-				</a>
-				<div class="purchase">
-					<div class="price"> 2900 р. </div>
-					<a href="#" class="buy">Купить</a>
-				</div>
-			</article>
-			<article class="gallery-item">
-				<a href="#">
-					<img src="img/catalog/item-2.jpg" width="220" height="170">
-				</a>
-				<a href="#">
-					<h1 class="description">Увлажняющий кондиционер  "Baxter of California"</h1>
-				</a>
-				<div class="purchase">
-					<div class="price"> 750 р. </div>
-					<a href="#" class="buy">Купить</a>
-				</div>
-				
-			</article>
-			<article class="gallery-item">
-				<a href="#">
-					<img src="img/catalog/item-3.jpg" width="220" height="170">
-				</a>
-				<a href="#">
-					<h1 class="description"> Гель для волос "Suavecito"</h1>
-				</a>
-				<div class="purchase">
-					<div class="price"> 290 р. </div>
-					<a href="#" class="buy">Купить</a>
-				</div>
-			</article>
-			<article class="gallery-item">
-				<a href="#">
-					<img src="img/catalog/item-4.jpg" width="220" height="170">
-				</a>
-				<a href="#">
-					<h1>Глина для укладки волос "American Crew"</h1>
-				</a>	
-				<div class="purchase">
-					<div class="price"> 500 р. </div>
-					<a href="#" class="buy">Купить</a>
-				</div>
-			</article>
-			<article class="gallery-item">
-				<a href="#">
-					<img src="img/catalog/item-5.jpg" width="220" height="170">
-				</a>
-				<a href="#">
-					<h1 class="description">Гель для волос "American Crew"</h1>
-				</a>					
-				<div class="purchase">
-					<div class="price"> 300 р. </div>
-					<a href="#" class="buy">Купить</a>
-				</div>
-			</article>
-			<article class="gallery-item">
-				<a href="#">
-					<img src="img/catalog/item-6.jpg" width="220" height="170">
-				</a>
-				<a href="#">
-					<h1 class="description">Набор для бритья "Baxter of California"</h1>
-				</a>
-				<div class="purchase">
-					<div class="price"> 3900 р. </div>
-					<a href="#" class="buy">Купить</a>
-				</div>
-			</article>	
-		</section>
+			</aside>
+			<section class="catalog">
+				<article class="catalog-item">
+					<a href="catalog-item.html">
+						<img src="img/catalog/item-1.jpg" width="220" height="170" alt="Набор для путешествий">
+					</a>
+					<a href="catalog-item.html">
+						<h1 class="item-title">Набор для путешествий "Baxter of California"</h1>
+					</a>
+					<div class="purchase">
+						<div class="price"> 2900 р. </div>
+						<a class="buy" href="#" >Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="#">
+						<img src="img/catalog/item-2.jpg" width="220" height="170" alt="Увлажняющий кондиционер">
+					</a>
+					<a href="#">
+						<h1 class="item-title">Увлажняющий кондиционер  "Baxter of California"</h1>
+					</a>
+					<div class="purchase">
+						<div class="price"> 750 р. </div>
+						<a class="buy" href="#">Купить</a>
+					</div>
+					
+				</article>
+				<article class="catalog-item">
+					<a href="#">
+						<img src="img/catalog/item-3.jpg" width="220" height="170" alt="Гель для волос">
+					</a>
+					<a href="#">
+						<h1 class="item-title"> Гель для волос "Suavecito"</h1>
+					</a>
+					<div class="purchase">
+						<div class="price"> 290 р. </div>
+						<a class="buy" href="#">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="#">
+						<img src="img/catalog/item-4.jpg" width="220" height="170" alt="Глина для укладки волос">
+					</a>
+					<a href="#">
+						<h1 class="item-title">Глина для укладки волос "American Crew"</h1>
+					</a>	
+					<div class="purchase">
+						<div class="price"> 500 р. </div>
+						<a class="buy" href="#">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="#">
+						<img src="img/catalog/item-5.jpg" width="220" height="170" alt="Гель для волос ">
+					</a>
+					<a href="#">
+						<h1 class="item-title">Гель для волос "American Crew"</h1>
+					</a>					
+					<div class="purchase">
+						<div class="price"> 300 р. </div>
+						<a class="buy" href="#">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="#">
+						<img src="img/catalog/item-6.jpg" width="220" height="170" alt="Набор для бритья">
+					</a>
+					<a href="#">
+						<h1 class="item-title">Набор для бритья "Baxter of California"</h1>
+					</a>
+					<div class="purchase">
+						<div class="price"> 3900 р. </div>
+						<a class="buy" href="#">Купить</a>
+					</div>
+				</article>	
+			</section>
+		</div>
 		<div class="pagination">
 			<ul>
 				<li><a href="#1">1</a></li>
-				<li><a href="#2">2</a></li>
+				<li><a class="active">2</a></li>
 				<li><a href="#3">3</a></li>
 				<li><a href="#4">4</a></li>
 			</ul>
